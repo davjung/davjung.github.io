@@ -1,0 +1,260 @@
+.universal-container{
+	width: 1500px;
+	height: 1000px;
+	display: block;
+	font-family: arial;
+}
+
+h1 {
+	color: black;
+	font-size: 30px
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~ LEFT SIDE COMPONENTS ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.leftside {
+	position: relative;
+	float: left;
+	display:inline-block;
+	width: 400px;
+    height: 770px;
+    vertical-align: top;
+    border-right: solid whitesmoke;
+    border-bottom: solid whitesmoke;
+}
+
+.sidebar-header{
+	float: left;
+	position: relative;
+	display: inline-block;
+	height: 150px;
+	width: 400px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.sidebar {
+	float: left;
+	position: relative;
+	display: inline-block;
+    height: 850px;
+    width: 400px;
+    text-align: center;
+    vertical-align: top;
+
+}
+
+
+.category {
+	width: 275px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: 10%;
+	margin-top: 30px;
+	background-color: whitesmoke;
+	border: 1px black solid;
+	padding: 15px;
+	font-family: arial;
+	font-size: 13px;
+	font-style: normal;
+	text-decoration: none;
+	color: black;
+	border-radius: 25px;
+
+}
+
+.categorytitle{
+	display: block;
+	text-align: center;
+	position: relative;
+	bottom: 3%;
+}
+
+#description{
+	height: 150px;
+	margin-left: -30px;
+	width: 260px;
+	font-family: arial;
+}
+
+
+#description1 {
+    height:18%;
+}
+
+.forma {
+    margin-left: 7%;
+}
+
+.forma.p {
+    text-decoration: underline;
+}
+
+.infoconfirm {
+	width: 275px;
+	display: block;
+	text-align: center;
+	position: relative;
+	left: 10%;
+	margin-top: 10px;
+	background-color: whitesmoke;
+	border: 1px black solid;
+	padding: 15px;
+	font-family: arial;
+	font-size: 12px;
+	border-radius: 25px;
+}
+
+.infoconfirm1 {
+    text-decoration: underline;
+    font-weight: bold;
+    margin-bottom: 17px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+input[type=text]{
+	margin-right: 60%;
+	margin-left: 10%;
+	margin-top: 0;
+	width: 70%;
+}
+
+p{
+	text-align: left;
+}
+
+input[type=submit]{
+	margin-top: 2%;
+	margin-left: 55%;
+}
+
+.confirmbut{
+    height:8%;
+    width: 28%;
+    display: inline-block;
+}
+
+#confirm-submit {
+    width: 120%;
+}
+
+#backb {
+    width: 120%;
+}
+
+.backbut{
+    height:8%;
+    width: 28%;
+    margin-left: -8%;
+    display: inline-block;
+}
+
+/* create an issue button in the homepage*/
+.create-issue {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    vertical-align: top;
+}
+
+.submit-issue {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    vertical-align: top;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~ RIGHT SIDE COMPONENTS ~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.rightSide{
+	display: inline-block;
+	vertical-align: top;
+	width: 1050px;
+	height: 800px;
+}
+
+
+.map-header{
+	display: inline-block;
+	height: 150px;
+	width: 1050px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.map{
+	display:inline-block;
+	width:1050px;
+	height:520px;
+	vertical-align: top;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-image: url(./images/mapBackground.png);
+	background-size: 1140px 520px;
+}
+
+#test{
+	text-align: center;
+	margin-top: -480px;
+}
+
+.map-icon{
+	position: absolute;
+	display: inline-block;
+	background: url(./images/mapIcon4.svg);
+	height:39px;
+	width:29px;
+	padding: 0;
+	border: none;
+	outline: none;
+	cursor: hand;
+}
+
+.map-info{
+	display: inline-block;
+	margin-top: 20px;
+	height:80px;
+	width:1050px;
+	vertical-align: top;
+	text-align: center;
+	border-bottom: solid whitesmoke;
+}
+
+.map-search-bar{
+	display: inline-block;
+	width: 200px;
+}
+
+.searchTerm {
+  border: 1px solid black;
+  padding: 5px;
+  height: 20px;
+  border-radius: 3px;
+  outline: none;
+}
+
+#filter-button{
+    display: inline-block;
+	height: 40px;
+    width: 100px;
+    margin-top: 460px;
+    margin-left: 930px;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 10px;
+    outline: none;
+    vertical-align: top;
+}

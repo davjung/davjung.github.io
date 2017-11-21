@@ -1,0 +1,63 @@
+
+<html>
+	<header>
+	   <title>Disaster Relief</title>
+	   <link rel="stylesheet" type="text/css" href="../styles.css"/>
+	</header>
+
+	<body>
+		<!-- Universal container for leftSide and rightSide-->
+		<div class="universal-container">
+
+			<!-- LEFT SIDE BEGINS HERE. -->
+			<div class="leftSide">
+				<!-- Sidebar Header is empty on homescreen, but is functional.-->
+				<div class="sidebar-header">
+					<h1 style="margin-top: 30px; border-bottom: solid whitesmoke; padding-bottom: 30px;">C A T E G O R I E S</h1>
+				</div>
+
+				<!-- MOST OF YOUR CODE WILL GO INSIDE THE SIDEBAR COMPONENT. -->
+				<div class="sidebar">
+					<div class="categorytitle">Select the category your issues fall under.</div>
+					<a id="category-food" class="category" href="./CAI_InfoForm.html">Food</a>
+					<a id="category-supplies" class="category" href="./CAI_InfoForm.html">Supplies</a>
+					<a id="category-missing" class="category" href="./CAI_InfoForm.html">Missing Person</a>
+					<a id="category-construction" class="category" href="./CAI_InfoForm.html">Construction</a>
+					<div class = "backbut">
+                   		<a href="./homescreen.html"><button id="backb" style="width: 200px; margin-left: -30px; margin-top: 200px" class="submit-issue">Back</button></a>
+             		</div>
+				</div>
+			
+
+			</div>
+
+
+			<!-- RIGHT SIDE BEGINS HERE. For all screens except confirmation, copy+paste this entire thing-->
+			<div class="rightSide">
+				<div class="map-header">
+					<a href="./homescreen.html" style="text-decoration: none">
+						<h1 style="margin-top: 30px; border-bottom: solid whitesmoke; padding-bottom: 30px;">D I S A S T E R &nbsp;&nbsp; R E L I E F</h1>
+					</a>
+					<img src="../images/searchIcon.svg" style="width: 15px; height: 15px; vertical-align: bottom; margin-bottom: 2px">
+					<div class="map-search-bar">
+					    <input type="text" class="searchTerm" placeholder="Go to a new location">
+					</div>
+
+				</div>
+				
+				<div class="map">
+					<div id="test"></div>					
+				</div>
+				<div class="map-info">
+					<div style="width: 400px; margin-left: 250px; margin-top: -15px">
+						<img src="../images/mapKey.svg" style="height: 90px">
+					</div>	
+				</div>
+			</div>
+		</div>
+
+		<script src="./javascript/CAI_Category.js"></script>
+
+   </body>
+
+</html>

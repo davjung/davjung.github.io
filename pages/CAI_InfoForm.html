@@ -1,0 +1,88 @@
+
+<html>
+	<header>
+	   <title>Disaster Relief</title>
+	   <link rel="stylesheet" type="text/css" href="../styles.css"/>
+	</header>
+
+	<body>
+		<!-- Universal container for leftSide and rightSide-->
+		<div class="universal-container">
+
+			<!-- LEFT SIDE BEGINS HERE. -->
+			<div class="leftSide">
+				<!-- Sidebar Header is empty on homescreen, but is functional.-->
+				<div class="sidebar-header">
+                    <h1 style="margin-top: 30px; border-bottom: solid whitesmoke; padding-bottom: 30px;">I N F O R M A T I O N</h1>
+                </div>
+
+				<!-- MOST OF YOUR CODE WILL GO INSIDE THE SIDEBAR COMPONENT. -->
+				<div  class="sidebar">
+					<div class="forms"></div>
+					<form>
+						<div class="forma">
+							<p>Name:</p>
+							<input type="text" id="name">
+							<br>
+						</div>
+						<div class="forma">
+							<p>E-Mail:</p>
+							<input type="text" id="email"><br>
+						</div>
+						<div class = "forma">
+							<p>Address of Disaster:</p>
+							<input type="text" id="address">
+							<br>
+						</div>
+						<div class = "forma">
+							<p>Severity:</p>
+							<input type="text" id="severity" placeholder="1, 2, 3 or 4">
+
+						</div>
+						<div class = "forma">
+							<p>Description:</p>
+							<textarea type="text" id="description"></textarea>
+							<br>
+						</div>
+					</form>
+                    <div>
+                        <div class = "backbut">
+                            <a href="./CAI_Category.html"><button id="backb" class="submit-issue">Back</button></a>
+                        </div>
+                        <div style="width: 6%; display:inline-block; margin-right: 4%;"></div>
+                        <div class = "confirmbut">
+                            <a href="./CAI_Confirm.html"><button id="infoForm-preview" style="width: 150px" class="submit-issue">Preview</button></a>
+                        </div>
+
+                    </div>
+				</div>
+			</div>
+
+
+			<!-- RIGHT SIDE BEGINS HERE. For all screens except confirmation, copy+paste this entire thing-->
+			<div class="rightSide">
+				<div class="map-header">
+					<a href="./homescreen.html" style="text-decoration: none">
+						<h1 style="margin-top: 30px; border-bottom: solid whitesmoke; padding-bottom: 30px;">D I S A S T E R &nbsp;&nbsp; R E L I E F</h1>
+					</a>					<img src="../images/searchIcon.svg" style="width: 15px; height: 15px; vertical-align: bottom; margin-bottom: 2px">
+					<div class="map-search-bar">
+					    <input type="text" class="searchTerm" placeholder="Go to a new location">
+					</div>
+
+				</div>
+				
+				<div class="map">
+					<div id="test"></div>					
+				</div>
+				<div class="map-info">
+					<div style="width: 400px; margin-left: 250px; margin-top: -15px">
+						<img src="../images/mapKey.svg" style="height: 90px">
+					</div>	
+				</div>
+			</div>
+		</div>
+
+        <script src="./javascript/CAI_InfoForm.js"></script>
+
+   </body>
+</html>
